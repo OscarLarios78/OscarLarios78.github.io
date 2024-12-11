@@ -50,7 +50,7 @@
         }
 
         .container {
-             max-width: 700px; /* Define un ancho máximo para el contenido */
+             max-width: 750px; /* Define un ancho máximo para el contenido */
             margin: 20px auto; /* Centra el contenedor horizontalmente */
             padding: 20px;
             margin-left: auto; /* Ajusta márgenes automáticos para centrar */
@@ -214,11 +214,11 @@
         <div class="features">
             <h2>Acerca de mí</h2>
             <ul>
-                <li style="text-align: justify;">No se me ocurre mejor manera de hablarte de mí que contarte las cosas que me gusta hacer.</li>
-                <li style="text-align: justify;">Lo principal es el ciclismo de montaña. Me encanta salir a explorar senderos y sentir la adrenalina mientras desciendo por caminos empinados y técnicos. Cada ruta es una nueva aventura, una combinación de desafío físico y conexión con la naturaleza. Hay algo especial en llegar a la cima de una montaña y disfrutar del paisaje antes de la bajada.</li>
-                <li style="text-align: justify;">Otro de mis pasatiempos favoritos es el tenis. Desde el sonido de la pelota golpeando la raqueta hasta la estrategia detrás de cada punto, todo me apasiona. Disfruto tanto los partidos amistosos con amigos como los momentos de concentración en los entrenamientos. Para mí, el tenis no es solo un deporte, es una forma de mantenerme activo y enfocado.</li>
-                <li style="text-align: justify;">Viajar es otra de mis grandes pasiones. Me fascina descubrir nuevos lugares, probar comidas diferentes y sumergirme en culturas desconocidas. Cada viaje me llena de experiencias que se convierten en recuerdos inolvidables. Desde perderme en pequeñas calles de una ciudad hasta alcanzar paisajes remotos en medio de la naturaleza, cada momento es especial.</li>
-                <li style="text-align: justify;">Estaré actualizando el blog con más sobre mis aventuras y pasiones. ¡Espero que lo disfrutes tanto como yo!</li>
+                <li style="text-align: justify;">No se me ocurre mejor manera de presentarme que compartiéndote las cosas que más disfruto hacer.</li>
+                <li style="text-align: justify;">Mi mayor pasión es el ciclismo de montaña. Me encanta salir a explorar senderos, sentir la adrenalina al descender, y conectar con la naturaleza en cada pedaleo. Cada ruta es una nueva aventura.</li>
+                <li style="text-align: justify;">También soy un gran fan del tenis. Desde el sonido de la pelota golpeando la raqueta hasta la estrategia detrás de cada punto, este deporte me tiene enganchado. El tenis no es solo ejercicio, es una manera de mantenerme activo y enfocado.</li>
+                <li style="text-align: justify;">Viajar es otra de mis grandes pasiones. Me encanta descubrir nuevos destinos, probar comidas diferentes y sumergirme en culturas desconocidas. Cada viaje es una oportunidad de vivir experiencias únicas.</li>
+                <li style="text-align: justify;">Seguiré actualizando el blog con más historias sobre mis aventuras y pasiones. ¡Espero que las disfrutes tanto como yo!</li>
             </ul>
         </div>
     </div>
@@ -227,42 +227,12 @@
         <div class="left">Data Science, ITAM</div>
     </div>
 
-    <div class="collage">
-        <img src="/images/imagen_1.jpg" alt="Foto Horizontal 1">
-        <img src="/images/Bambo.jpg" alt="Foto Vertical">
-        <img src="/images/imagen_2.jpg" alt="Foto Horizontal 2">
-    </div>
+    <div class="image-container">
+            <img src="/images/imagen_1.jpg">
+        </div>
+    
 
-    .collage {
-    display: grid;
-    grid-template-areas: 
-        "photo1 photo2"
-        "photo3 photo2";
-    grid-template-columns: 2fr 1fr; /* Dos columnas: una más ancha y una más estrecha */
-    gap: 20px; /* Espacio entre las imágenes */
-    margin: 40px auto; /* Espacio superior e inferior y centrado horizontal */
-    max-width: 800px; /* Ancho máximo del collage */
-}
-
-.collage img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ajusta las imágenes para que se vean bien */
-    border-radius: 10px; /* Esquinas redondeadas */
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4); /* Sombras elegantes */
-}
-
-.collage img:nth-child(1) {
-    grid-area: photo1; /* Primera imagen horizontal */
-}
-
-.collage img:nth-child(2) {
-    grid-area: photo2; /* Imagen vertical */
-}
-
-.collage img:nth-child(3) {
-    grid-area: photo3; /* Segunda imagen horizontal */
-}
+    
 
 
     
