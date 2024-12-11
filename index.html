@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oscar Larios</title>
+    <title>Nebulous 2.0</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
@@ -13,12 +13,48 @@
             background-color: #121212;
             color: #e0e0e0;
             line-height: 1.6;
+            display: flex;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #1f1f1f;
+            color: #e0e0e0;
+            position: fixed;
+            height: 100%;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .sidebar h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin: 15px 0;
+        }
+
+        .sidebar ul li a {
+            color: #ff6ec4;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .sidebar ul li a:hover {
+            text-decoration: underline;
         }
 
         .container {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
+            margin-left: 270px; /* Space for the sidebar */
         }
 
         .badge {
@@ -130,21 +166,30 @@
     </style>
 </head>
 <body>
+    <div class="sidebar">
+        <h2>Contacto</h2>
+        <ul>
+            <li>Email: <a href="mailto:example@example.com">example@example.com</a></li>
+            <li>GitHub: <a href="https://github.com" target="_blank">github.com</a></li>
+            <li>Teléfono: <a href="tel:+521234567890">+52 123 456 7890</a></li>
+        </ul>
+    </div>
+
     <div class="container">
         <div class="badge">2.0</div>
-        <div class="date">Dic 11, 2024</div>
-        <h1 class="title">Mi blog</h1>
+        <div class="date">Jul 1, 2022</div>
+        <h1 class="title">Introducing Nebulous 2.0!</h1>
 
         <div class="image-container">
             <img src="https://via.placeholder.com/800x400/ff6ec4/ffffff?text=Nebulous+2.0" alt="Nebulous 2.0">
         </div>
 
         <div class="content">
-            <p>Mi nombre es Oscar Larios Mancilla y nací el 20 de Diciembre de 2004. Actualmente estudio ciencia de datos en el Instituto Tecnológico Autónomo de Mexico (ITAM). Mis cosas favoritas en la vida son los deportes, mi familia y mis mascotas. En este blog compartiré música, películas, proyectos de programación y cualquier cosa que me parezca interesante.</p>
+            <p>Greetings, Nebulous users! We’re excited to bring you the latest updates in our <a href="#">ever-evolving tech ecosystem</a>. In this release, we’re introducing some exciting new features and squashing a few pesky bugs. Let’s dive in!</p>
         </div>
 
         <div class="features">
-            <h2>Acerca de mí</h2>
+            <h2>🎁 New Features & Enhancements</h2>
             <ul>
                 <li><span>NebulaSync v2.0:</span> We’re thrilled to introduce NebulaSync 2.0, our revamped file synchronization tool. It now offers blazing-fast sync speeds, improved reliability, and enhanced cross-device compatibility.</li>
                 <li><span>Enhanced NebulaProtect:</span> NebulaProtect, our comprehensive security suite, has received a major update. Enjoy advanced threat detection and real-time monitoring.</li>
