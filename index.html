@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nebulous 2.0</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -98,12 +99,40 @@
         .features ul li span {
             font-weight: bold;
         }
+
+        .footer {
+            background-color: #1f1f1f;
+            color: #e0e0e0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .footer .left {
+            font-size: 14px;
+        }
+
+        .footer .right a {
+            color: #e0e0e0;
+            margin-left: 15px;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        .footer .right a:hover {
+            color: #ff6ec4;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="badge">2.0</div>
-        <div class="date">Jul 1, 2022</div>
+        <div class="date">Dic 11, 2024</div>
         <h1 class="title">Introducing Nebulous 2.0!</h1>
 
         <div class="image-container">
@@ -111,16 +140,24 @@
         </div>
 
         <div class="content">
-            <p>Soy Oscar Larios Mancilla, nací el 20 de diciembre de 2004 y actualmente estudio Ciencia de Datos en el Instituto Tecnológico Autónomo de México (ITAM). Me apasionan los deportes, mi familia y mis mascotas. En este blog compartiré música, películas, proyectos de programación y cualquier tema que me parezca interesante.</p>
+            <p>Mi nombre es Oscar Larios Mancilla y nací el 20 de Diciembre de 2004. Actualmente estudio ciencia de datos en el Instituto Tecnológico Autónomo de Mexico (ITAM). Mis cosas favoritas en la vida son los deportes, mi familia y mis mascotas. En este blog compartiré música, películas, proyectos de programación y cualquier cosa que me parezca interesante.</p>
         </div>
 
         <div class="features">
-            <h2>A cerca de mí</h2>
+            <h2>Acerca de mí</h2>
             <ul>
                 <li><span>NebulaSync v2.0:</span> We’re thrilled to introduce NebulaSync 2.0, our revamped file synchronization tool. It now offers blazing-fast sync speeds, improved reliability, and enhanced cross-device compatibility.</li>
                 <li><span>Enhanced NebulaProtect:</span> NebulaProtect, our comprehensive security suite, has received a major update. Enjoy advanced threat detection and real-time monitoring.</li>
                 <li><span>NebulaConnect for Teams:</span> Collaborate effortlessly with NebulaConnect for Teams. This powerful feature allows seamless integration with your favorite project management tools.</li>
             </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="left">Data Science, ITAM</div>
+        <div class="right">
+            <a href="mailto:example@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
         </div>
     </div>
 </body>
