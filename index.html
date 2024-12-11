@@ -50,10 +50,11 @@
         }
 
         .container {
-            max-width: 800px;
+            max-width: calc(100% - 250px); /* Ocupa el ancho restante menos el de la barra lateral */
             margin: 20px auto;
             padding: 20px;
-            margin-left: 270px; /* Space for the sidebar */
+            margin-left: 250px; /* Coincide con el ancho de la barra lateral */
+            text-align: center;
         }
 
         .badge {
